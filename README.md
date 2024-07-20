@@ -4,13 +4,6 @@
 
 
 This is a backend implementation for a money lending application, similar to apps like Slice and KreditBee. It provides APIs for user signup, login, fetching user data, and borrowing money.
-## Table of Contents
-
-1. [Features](#features)
-2. [Technologies Used](#technologies-used)
-3. [Setup and Installation](#setup-and-installation)
-4. [API Documentation](#api-documentation)
-5. [API Response Screenshots](#api-response-screenshots)
 
 
 ## Features
