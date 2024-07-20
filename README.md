@@ -2,6 +2,18 @@
 
 This is a backend implementation for a money lending application, similar to apps like Slice and KreditBee. It provides APIs for user signup, login, fetching user data, and borrowing money.
 
+## Table of Contents
+
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+3. [Setup and Installation](#setup-and-installation)
+4. [API Documentation](#api-documentation)
+    - [User Signup](#user-signup)
+    - [User Login](#user-login)
+    - [Get User Data](#get-user-data)
+    - [Borrow Money](#borrow-money)
+5. [API Response Screenshots](#api-response-screenshots)
+
 ## Features
 
 - User registration with age and salary validation
@@ -49,7 +61,7 @@ This is a backend implementation for a money lending application, similar to app
 
 Here I'm providing some examples and the API documentation.
 
-### 1. User Signup
+### User Signup
 
 - **URL:** `POST /api/signup`
 - **Description:** Register a new user
@@ -79,7 +91,7 @@ Here I'm providing some examples and the API documentation.
     }
     ```
 
-### 2. User Login
+### User Login
 
 - **URL:** `POST /api/login`
 - **Description:** Authenticate a user and receive a JWT
@@ -105,7 +117,7 @@ Here I'm providing some examples and the API documentation.
     }
     ```
 
-### 3. Get User Data
+### Get User Data
 
 - **URL:** `GET /api/user`
 - **Description:** Fetch authenticated user's data
@@ -132,7 +144,7 @@ Here I'm providing some examples and the API documentation.
     }
     ```
 
-### 4. Borrow Money
+### Borrow Money
 
 - **URL:** `POST /api/borrow`
 - **Description:** Borrow money and calculate repayments
@@ -148,36 +160,4 @@ Here I'm providing some examples and the API documentation.
 - **Success Response: HTTP 200 (OK)**
     ```json
     {
-      "purchasePower": 10000,
-      "monthlyRepayment": 900.00
-    }
-    ```
-
-- **Error Response: HTTP 404 (Not Found)**
-    ```json
-    {
-      "message": "User not found"
-    }
-    ```
-
-## API Response Screenshots
-
-I used the Postman extension in VSCode to test the APIs. Here are the screenshots:
-
-### Signup API Response
-![Signup API Response](screenshots/Signup_Sucess.png)
-
-### Signup (Failure) API Response
-![Signup (Failure) API Response](screenshots/Signup_Failure.png)
-
-### Login API Response
-![Login API Response](screenshots/Login.png)
-
-### Login (Failure) API Response
-![Login (Failure) API Response](screenshots/Login_Error.png)
-
-### Get User Data API Response
-![Get User Data API Response](screenshots/User.png)
-
-### Borrow Money API Response
-![Borrow Money API Response](screenshots/Borrow.png)
+      "purchasePower
