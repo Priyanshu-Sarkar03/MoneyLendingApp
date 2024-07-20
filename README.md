@@ -68,11 +68,11 @@ Here I'm providing some examples and the API documentation.
 - **Request Body:**
     ```json
     {
-      "phoneNumber": "1234567890",
-      "email": "user@example.com",
-      "name": "John Doe",
-      "dob": "1990-01-01",
-      "monthlySalary": 30000,
+      "phoneNumber": "0987678905",
+      "email": "user@gmail.com",
+      "name": "Priyanshu Sarkar",
+      "dob": "2000-01-01",
+      "monthlySalary": 80000,
       "password": "password123"
     }
     ```
@@ -98,7 +98,7 @@ Here I'm providing some examples and the API documentation.
 - **Request Body:**
     ```json
     {
-      "email": "user@example.com",
+      "email": "user@gmail.com",
       "password": "password123"
     }
     ```
@@ -126,12 +126,12 @@ Here I'm providing some examples and the API documentation.
 - **Success Response: HTTP 200 (OK)**
     ```json
     {
-      "phoneNumber": "1234567890",
-      "email": "user@example.com",
-      "name": "John Doe",
-      "dateOfRegistration": "2023-07-20T10:30:00.000Z",
-      "dob": "1990-01-01T00:00:00.000Z",
-      "monthlySalary": 30000,
+      "phoneNumber": "0987678905",
+      "email": "user@gmail.com",
+      "name": "Priyanshu Sarkar",
+      "dateOfRegistration": "2024-07-20T10:30:00.000Z",
+      "dob": "2000-01-01T00:00:00.000Z",
+      "monthlySalary": 80000,
       "status": "Approved",
       "purchasePower": 0
     }
@@ -152,7 +152,7 @@ Here I'm providing some examples and the API documentation.
 - **Request Body:**
     ```json
     {
-      "amount": 10000,
+      "amount": 20000,
       "tenure": 12
     }
     ```
@@ -160,8 +160,8 @@ Here I'm providing some examples and the API documentation.
 - **Success Response: HTTP 200 (OK)**
     ```json
     {
-      "purchasePower": 10000,
-      "monthlyRepayment": 900.00
+      "purchasePower": 20000,
+      "monthlyRepayment": 1800.00
     }
     ```
 
