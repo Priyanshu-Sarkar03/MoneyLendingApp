@@ -170,10 +170,12 @@ Here I'm providing some examples and the API documentation.
 I used the Postman extension in VSCode to test the APIs. Here are the screenshots:
 ### Signup API Response
 ![Signup API Response](screenshots/Signup_Sucess.png)
+### Signup(Failure) API Response
 ![Signup(Failure) API Response](screenshots/Signup_Failure.png)
 
 ### Login API Response
 ![Login API Response](screenshots/Login.png)
+### Login(Failure) API Response
 ![Login(Error) API Response](screenshots/Login_Error.png)
 
 ### Get User Data API Response
