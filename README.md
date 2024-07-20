@@ -160,4 +160,36 @@ Here I'm providing some examples and the API documentation.
 - **Success Response: HTTP 200 (OK)**
     ```json
     {
-      "purchasePower
+      "purchasePower": 10000,
+      "monthlyRepayment": 900.00
+    }
+    ```
+
+- **Error Response: HTTP 404 (Not Found)**
+    ```json
+    {
+      "message": "User not found"
+    }
+    ```
+
+## API Response Screenshots
+
+I used the Postman extension in VSCode to test the APIs. Here are the screenshots:
+
+### Signup API Response
+![Signup API Response](screenshots/Signup_Sucess.png)
+
+### Signup (Failure) API Response
+![Signup (Failure) API Response](screenshots/Signup_Failure.png)
+
+### Login API Response
+![Login API Response](screenshots/Login.png)
+
+### Login (Failure) API Response
+![Login (Failure) API Response](screenshots/Login_Error.png)
+
+### Get User Data API Response
+![Get User Data API Response](screenshots/User.png)
+
+### Borrow Money API Response
+![Borrow Money API Response](screenshots/Borrow.png)
