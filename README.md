@@ -35,7 +35,7 @@ This is a backend implementation for a money lending application, similar to app
 
 1. Clone the repository:
 ```
-git clone https://github.com/Priyanshu-Sarkar03/MoneyLendingAppd.git
+git clone https://github.com/Priyanshu-Sarkar03/MoneyLendingApp.git
 ```
 2. Navigate to the project directory:
 ```
